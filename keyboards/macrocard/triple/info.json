@@ -10,7 +10,10 @@
         "nkro": true
     },
     "matrix_pins": {
-        "direct": [["GP29", "GP28", "GP27", "GP21"]]
+        "direct": [
+            ["GP29", "GP28", "GP27"],
+            ["GP21"]
+        ]
     },
     "processor": "RP2040",
     "usb": {

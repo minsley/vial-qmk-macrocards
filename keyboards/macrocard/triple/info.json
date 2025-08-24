@@ -1,7 +1,7 @@
 {
-    "manufacturer": "MacroCards",
-    "keyboard_name": "MacroCard Triple",
-    "maintainer": "minsley",
+    "manufacturer": "MacroCard",
+    "keyboard_name": "Triple",
+    "maintainer": "mins",
     "bootloader": "rp2040",
     "features": {
         "bootmagic": true,
@@ -10,7 +10,7 @@
         "nkro": true
     },
     "matrix_pins": {
-        "direct": [["GP2", "GP3", "GP5"]]
+        "direct": [["GP29", "GP28", "GP27", "GP21"]]
     },
     "processor": "RP2040",
     "usb": {
@@ -23,7 +23,8 @@
             "layout": [
                 {"label": "K00", "matrix": [0, 0], "x": 0, "y": 0},
                 {"label": "K01", "matrix": [0, 1], "x": 1, "y": 0},
-                {"label": "K02", "matrix": [0, 2], "x": 2, "y": 0}
+                {"label": "K02", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "K03", "matrix": [1, 0], "x": 1, "y": 1}
             ]
         }
     }

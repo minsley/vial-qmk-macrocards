@@ -1,7 +1,7 @@
 {
     "manufacturer": "MacroCards",
-    "keyboard_name": "MacroCard QT Py Debug",
-    "maintainer": "minsley",
+    "keyboard_name": "Debug",
+    "maintainer": "mins",
     "bootloader": "rp2040",
     "features": {
         "bootmagic": true,
